@@ -10,6 +10,12 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+    --font-scifi-reg: var(--font-scifi-reg);
+}
+
+@theme {
+
+  --font-scifi-header: var(--font-scifi-header)
 }
 
 @media (prefers-color-scheme: dark) {
@@ -23,4 +29,40 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  cursor: none; 
+}
+
+a, button {
+  cursor: none;
+}
+
+/* Navigator gem animations temporary */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes spin-slow {
+  0% { transform: rotateY(0deg); }
+  100% { transform: rotateY(360deg); }
+}
+.animate-spin-slow {
+  animation: spin-slow 10s linear infinite;
+}
+
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+
+/* HoloCard card scanning animation */
+
+@keyframes scanline {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(500%); }
+}
+.animate-scanline {
+  animation: scanline 4s linear infinite;
 }
