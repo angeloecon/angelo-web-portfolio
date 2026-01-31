@@ -4,14 +4,6 @@ import WorkExCard from "../Cards/WorkExCard";
 const experiences = [
   {
     id: 1,
-    role: "Front-End Engineer",
-    company: "Dummy Info",
-    period: "2024 - Present",
-    description: "Developing immersive web experiences using React, Next.js, and Three.js. Optimizing performance for interstellar networks.",
-    tech: ["React", "Next.js", "Three.js", "Tailwind"]
-  },
-  {
-    id: 2,
     role: "Freelancer",
     company: "Self-Employed",
     period: "2020 - 2021",

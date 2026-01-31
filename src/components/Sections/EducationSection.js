@@ -15,13 +15,7 @@ const education = [
     degree: "Computer Programming (TVL)",
     year: "2018 - 2019",
     details: " Trained in programming and networking. "
-  }, {
-    id: 3,
-    school: "Tech Academy",
-    degree: "Full Stack Certification",
-    year: "2022",
-    details: "Intensive bootcamp focusing on MERN stack."
-  }
+  } 
 ];
 
 const EducationSection = () => {

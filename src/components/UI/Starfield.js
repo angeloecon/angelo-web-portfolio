@@ -120,7 +120,7 @@ const Starfield = () => {
   return (
     <canvas
       ref={canvasRef}
-      className="fixed w-full f-full -z-1 top-0 left-0 pointer-event-none bg-radial bg-[radial-gradient(circle_at_center,#1e293b_0%,#000000_100%)] "
+      className="fixed w-full h-full -z-1 top-0 left-0 pointer-event-none bg-radial bg-[radial-gradient(circle_at_center,#1e293b_0%,#000000_100%)] "
     />
   );
 };
